@@ -1,0 +1,380 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: block;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+nav {
+    height: 20rem;
+    background-color: #2e2e2d;
+    width: 100%; /* 56rem */
+    display: block;
+}
+
+.mobileul {
+    display: none;
+}
+
+.tablet {
+    position: absolute;
+    display: none;
+    left: -200rem;
+}
+
+.img {
+    position: absolute;
+    left: 7rem;
+    top: 3rem;
+}
+
+.head {
+    position: absolute;
+    top:  14rem;
+    left: 10rem;
+    color: white;
+}
+
+.fa-solid  {
+    position: absolute;
+    color: white;
+    font-size: 2rem;
+    top: 4rem;
+    left: 3rem;
+    visibility: visible;
+}
+
+.header {
+    background-size: cover;
+    background-position: center;
+}
+
+.relative {
+    position: relative;
+    width: 90%;
+    height: 11.25rem;
+}
+
+.absolute {
+    position: absolute;
+    width: 90%;
+    top: 0.7rem;
+}
+
+.section {
+    position: absolute;
+    left: 5.5rem;
+    top: 3.1rem; 
+    font-size: small;
+    font-family: 'sofia-pro';
+    letter-spacing: 0.125rem;
+    word-spacing: 0.125rem;
+    font-weight: 500;
+}
+
+.btn {
+    position: absolute;
+    left: 12rem;
+    top: 10rem; 
+    border: 0.13rem solid black;
+    background-color: white;
+    padding: 0.9rem 1.75rem;
+    font-weight: lighter;
+    font-size: small;
+    font-family: sans-serif;
+}
+
+.btn:hover {
+    background-color: #c58f6f;
+    border: none;
+}
+
+.relative1 {
+    position: relative;
+    width: 10%;
+    height: 280rem;
+}
+
+.absolute1 {
+    position: absolute;
+    width: 10%;
+    top: 4.375rem;
+}
+
+.section1 {
+    position: absolute;
+    left: 13rem;
+    top: 16rem;
+}
+
+.section1 {
+    position: absolute;
+    left: 8rem;
+    top: 19rem;
+}
+
+.head1 {
+    font-size: 3rem;
+    font-weight: 400;
+    text-align: center;
+    font-family: 'sofia-pro';
+    color: #c58f6f;
+    width: 30rem;
+}
+
+.btn1 {
+    display: none;
+}
+
+.i {
+    position: absolute;
+    left: -45rem;
+    top: 41.6rem;
+    width: 50.3rem;
+    height: 50rem;
+}
+
+.ii {
+    position: absolute;
+    top: 41rem;
+    width: 50rem;
+    height: 50rem;
+    z-index: 1;
+}
+
+.btn2 {
+    display: none;
+}
+
+.btni {
+    position: absolute;
+    top: 40rem;
+    z-index: 1;
+    width: 50rem;
+}
+
+/*
+.btni {
+    position: absolute;
+    border: none;
+    color: white;
+    padding: 0.6rem 1.25rem;
+    font-weight: bold;
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+    width: 50rem;
+    left: 9rem;
+    margin-top: 1.563rem;
+    margin-left: 1.75rem;
+    z-index: 1;
+} */
+
+.section2 {
+    position: absolute;
+    left: 9rem;
+    top: 60rem;
+    z-index: 1;
+}
+
+.head2 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-align: center;
+    width: 30rem;
+    word-spacing: 0.5rem;
+    line-height: 3rem;
+    color: #c58f6f;
+    font-family: 'sans serif';
+}
+
+.iii {
+    position: absolute;
+    top: 91rem;
+    left: -45rem;
+    width: 50.3rem;
+    height: 50rem;
+    z-index: 1;
+}
+
+.iv {
+    position: absolute;
+    top: 95rem;
+    width: 50rem;
+    height: 50rem;
+    z-index: 1;
+}
+
+.v {
+    position: absolute;
+    top: 145rem;
+    left: -45rem;
+    width: 50.3rem;
+    height: 50rem;
+    z-index: 1;
+}
+
+.relative2 {
+    position: relative;
+    width: 100%;
+    height: 45rem;
+}
+
+.absolute2 {
+    position: absolute;
+    width: 100%;
+    top: 3rem;
+}
+
+.section3 {
+    position: absolute;
+    top: 24rem;
+    left: 11.5rem;
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+.btn3 {
+    position: absolute;
+    left: 18rem;
+    top: 30rem;
+    border: 0.1rem solid black;
+    background-color: white;
+    padding: 0.9rem 1.70rem;
+    font-weight: 100;
+    font-size: small;
+}
+
+.logoi {
+    position: absolute;
+    display: block;
+    margin-top: 2rem;
+    left: 19rem;
+}
+
+.relative3 {
+    position: relative;
+    width: 100%;
+    height: 101rem;
+}
+
+.absolute3 {
+    position: absolute;
+    width: 100%;
+    top: 3.125rem;
+}
+
+.color5 {
+    background-color: #2e2e2d
+}
+
+.section4 {
+    position: absolute;
+    left: 18rem;
+    text-align: center;
+    top: 4.375rem;
+    color: white;
+}
+
+.head3 {
+    font-size: 3rem;
+    font-weight: lighter;
+}
+
+.head4 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: smaller;
+    font-weight: lighter;
+    letter-spacing: 0.09rem;
+}
+
+.vertical-line {
+    position: absolute;
+    border-left: 1px solid white;
+    height: 4rem; 
+    left: 24rem;
+    top: 20.5rem;
+}
+
+.section5 {
+    position: absolute;
+    top: 27rem;
+    left: 15rem;
+    text-align: center;
+    color: white;
+}
+
+.vertical-line1 {
+    position: absolute;
+    border-left: 1px solid white;
+    height: 4rem; 
+    left: 24rem;
+    top: 38rem;
+}
+
+.section6 {
+    position: absolute;
+    text-align: center;
+    top: 45rem;
+    left: 15rem;
+    color: white;
+}
+
+.section7 {
+    display: none;
+}
+
+.section7-1 {
+    position: absolute;
+    display: block;
+    top: 75rem;
+    text-align: center;
+    width: 50rem;
+    left: -2.5rem;
+}
+
+.section7-3 {
+    position: absolute;
+    top: 78rem;
+    left: 5rem;
+    display: block;
+}
+
+.TRYBEST {
+    position: absolute;
+    text-align: right;
+    left: -1rem;
+}
+
+.section7-2 {
+    position: absolute;
+    border-top: 0.09rem solid white;
+    width: 40rem;
+    top: 73rem;
+    left: 3.9rem;
+}
+
+.section8 {
+    position: absolute;
+    top: 93rem;
+    color: white;
+    left: 3.5rem;
+    border-right: 0.06rem solid white;
+    padding-right: 0.5rem;
+    font-size: small;
+}
+
+.section9 {
+    position: absolute;
+    top: rem;
+    left: 27rem;
+    width: 12.5rem;
+    font-size: small;
+}
